@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./App.css";
@@ -11,6 +11,7 @@ function App() {
       path: "/",
       element: <RootLayout />,
       children: [{ index: true, element: <Home /> }],
+      
     },
   ]);
 
