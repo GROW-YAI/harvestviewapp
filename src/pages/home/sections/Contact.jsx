@@ -23,7 +23,7 @@ const Contact = () => {
           </p>
         </div>
 
-        {/* Contact & Map - Side by Side on Desktop */}
+        {/* Contact & Map */}
         <div className="flex flex-col md:flex-row gap-12 items-center">
           {/* Contact Info */}
           <div className="md:w-1/2 space-y-6 text-center md:text-left">
@@ -34,7 +34,7 @@ const Contact = () => {
 
             {/* Email */}
             <a
-              href="mailto:contact@hydroponics.com"
+              href="mailto:allgreensglobal@gmail.com"
               className="block text-lg text-green-600 hover:underline"
             >
               📧 allgreensglobal@gmail.com
@@ -84,6 +84,7 @@ const Contact = () => {
                   shadowUrl: markerShadowPng,
                   iconSize: [25, 41],
                   iconAnchor: [12, 41],
+                  
                 })}
               >
                 <Popup>📍 Sunyani East, Bono Region, Ghana</Popup>

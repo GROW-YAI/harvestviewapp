@@ -7,7 +7,7 @@ const RootLayout = () => {
   return (
     <div className="relative">
       <Navbar />
-      <ScrollToTop /> {/* ✅ Now this runs globally for all routes */}
+      <ScrollToTop /> 
       <main>
         <Outlet />
       </main>

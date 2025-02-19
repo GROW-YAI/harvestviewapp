@@ -77,8 +77,6 @@ const Navbar = () => {
         )}
       </nav>
 
-      {/* Add padding to prevent content from being hidden behind navbar */}
-      <div className="pt-20"></div>
     </>
   );
 };
