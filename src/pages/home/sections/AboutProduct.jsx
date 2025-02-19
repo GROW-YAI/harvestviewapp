@@ -8,7 +8,6 @@ const benefits = [
   { icon: "/images/sunrise.png", title: "Sustainable Growth" },
   { icon: "/images/windmill.png", title: "Eco-Friendly Energy" },
   { icon: "/images/sprout.png", title: "No Soil Needed" },
-  
 ];
 
 const AboutProduct = () => {
@@ -24,10 +23,13 @@ const AboutProduct = () => {
       />
 
       <section className="py-16 px-6 bg-white">
-        {/* Benefits Icons */}
-        <div className="flex justify-center gap-6 md:gap-12 mb-10">
+        {/* Benefits Icons - Responsive Layout */}
+        <div className="flex flex-wrap justify-center items-center gap-6 md:gap-12 mb-10">
           {benefits.map((benefit, index) => (
-            <div key={index} className="text-center">
+            <div
+              key={index}
+              className="flex flex-col items-center text-center w-28 md:w-auto"
+            >
               <img
                 src={benefit.icon}
                 alt={benefit.title}
