@@ -37,15 +37,15 @@ const Contact = () => {
               href="mailto:contact@hydroponics.com"
               className="block text-lg text-green-600 hover:underline"
             >
-              📧 contact@hydroponics.com
+              📧 allgreensglobal@gmail.com
             </a>
 
             {/* Phone */}
             <a
-              href="tel:+233123456789"
+              href="tel:+233534775338"
               className="block text-lg text-green-600 hover:underline"
             >
-              📞 +233 123 456 789
+              📞 +233 534 775 338
             </a>
 
             {/* Social Media */}
@@ -72,7 +72,7 @@ const Contact = () => {
           {/* Map */}
           <div className="md:w-1/2 w-full h-64">
             <MapContainer
-              center={[7.34, -2.345]} 
+              center={[7.34, -2.345]}
               zoom={13}
               className="w-full h-full rounded-lg shadow-lg"
             >
