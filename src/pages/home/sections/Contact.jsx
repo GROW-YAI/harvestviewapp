@@ -1,7 +1,13 @@
-import { FaXTwitter, FaInstagram } from "react-icons/fa6"; 
+import {
+  FaXTwitter,
+  FaInstagram,
+  FaTiktok,
+  FaLinkedinIn,
+  FaFacebookF,
+} from "react-icons/fa6";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import L from "leaflet"; 
+import L from "leaflet";
 import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import markerShadowPng from "leaflet/dist/images/marker-shadow.png";
 
@@ -29,7 +35,7 @@ const Contact = () => {
           <div className="md:w-1/2 space-y-6 text-center md:text-left">
             {/* Address */}
             <div className="text-lg text-gray-700">
-              📍 Sunyani East, Bono Region, Ghana
+              📍 Nkwabeng Mayfair, Sunyani, Ghana
             </div>
 
             {/* Email */}
@@ -50,21 +56,41 @@ const Contact = () => {
 
             {/* Social Media */}
             <div className="flex justify-center md:justify-start gap-6 mt-4">
+              {/* Instagram */}
               <a
-                href="https://twitter.com/yourhandle"
+                href="https://www.instagram.com/harvestviewgh?igsh=ZTZpbjh2c2tjZzl4"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-3xl text-red-600 hover:text-red-800 transition"
-              >
-                <FaXTwitter />
-              </a>
-              <a
-                href="https://instagram.com/yourhandle"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-3xl text-red-600 hover:text-red-800 transition"
+                className="text-3xl text-green-600 hover:text-green-800 transition"
               >
                 <FaInstagram />
+              </a>
+              {/* TikTok */}
+              <a
+                href="https://www.tiktok.com/@harvestviewgh?_t=ZM-8uUJffbaeIw&_r=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-3xl text-green-600 hover:text-green-800 transition"
+              >
+                <FaTiktok />
+              </a>
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/yourhandle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-3xl text-green-600 hover:text-green-800 transition"
+              >
+                <FaLinkedinIn />
+              </a>
+              {/* Facebook */}
+              <a
+                href="https://www.facebook.com/share/12FMBqB7ZEA/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-3xl text-green-600 hover:text-green-800 transition"
+              >
+                <FaFacebookF />
               </a>
             </div>
           </div>
@@ -72,22 +98,21 @@ const Contact = () => {
           {/* Map */}
           <div className="md:w-1/2 w-full h-64">
             <MapContainer
-              center={[7.34, -2.345]}
+              center={[7.33, -2.33]} // Approximate coordinates for Nkwabeng Mayfair, Sunyani
               zoom={13}
               className="w-full h-full rounded-lg shadow-lg"
             >
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
               <Marker
-                position={[7.34, -2.345]}
+                position={[7.33, -2.33]}
                 icon={L.icon({
                   iconUrl: markerIconPng,
                   shadowUrl: markerShadowPng,
                   iconSize: [25, 41],
                   iconAnchor: [12, 41],
-                  
                 })}
               >
-                <Popup>📍 Sunyani East, Bono Region, Ghana</Popup>
+                <Popup>📍 Nkwabeng Mayfair, Sunyani, Ghana</Popup>
               </Marker>
             </MapContainer>
           </div>

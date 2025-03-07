@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "/images/logo.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +10,10 @@ const Navbar = () => {
       <nav className="fixed top-0 left-0 w-full bg-green-900 text-white py-4 px-8 z-50 shadow-md">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           {/* Logo */}
-          <div className="text-2xl font-bold">
-            <span className="text-green-400">VERTI</span>HARVEST
+
+          <div className="flex items-center text-2xl font-bold">
+            <img src={logo} alt="Logo" className="rounded-full w-14 mr-2 h-14" />
+            <span className="text-green-400">HARVEST</span>VIEW
           </div>
 
           {/* Desktop Nav */}
@@ -76,7 +79,6 @@ const Navbar = () => {
           </div>
         )}
       </nav>
-
     </>
   );
 };

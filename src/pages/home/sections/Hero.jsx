@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const images = [
-  "/images/hydroponics6.jpg",
-  "/images/hydroponics9.jpg",
-  "/images/hydroponics7.jpg",
+  "/images/about1.jpg",
+  "/images/hero1.jpg",
+  "/images/hero2.jpg",
 ];
 
 const Hero = () => {

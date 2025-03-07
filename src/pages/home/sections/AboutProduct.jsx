@@ -1,6 +1,6 @@
 import { useState } from "react";
 import about from "/images/about.jpg";
-import hydroponics8 from "/images/hydroponics8.jpg";
+import about1 from "/images/about1.jpg";
 
 const benefits = [
   { icon: "/images/cereals.png", title: "High Yield Crops" },
@@ -82,7 +82,7 @@ const AboutProduct = () => {
           {/* Right Side Image */}
           <div className="relative md:w-1/2 mt-[5%]">
             <img
-              src={hydroponics8}
+              src={about1}
               alt="NFT Hydroponics"
               className="w-full object-cover shadow-lg filter brightness-75 contrast-125"
             />

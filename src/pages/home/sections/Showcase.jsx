@@ -1,25 +1,25 @@
 import { motion } from "framer-motion";
-import showcase1 from "/images/showcase1.jpg";
-import showcase2 from "/images/showcase2.jpg";
-import showcase3 from "/images/showcase3.jpg";
+import showcaseNew from "/images/showcaseNew.jpg";
+import hydroponics1 from "/images/hydroponics1.png";
+import hydroponics8 from "/images/hydroponics8.jpg";
 
 const products = [
   {
     id: 1,
-    image: showcase1,
+    image: showcaseNew,
     title: "NFT Hydroponic Tower",
     description: "Maximizes vertical space for efficient vegetable production.",
   },
   {
     id: 2,
-    image: showcase2,
+    image: hydroponics1,
     title: "Automated Irrigation System",
     description:
       "Smart water delivery to optimize plant growth and save water.",
   },
   {
     id: 3,
-    image: showcase3,
+    image: hydroponics8,
     title: "Organic Nutrient Solution",
     description:
       "Provides essential minerals for healthy and fast plant growth.",
