@@ -7,7 +7,7 @@ const products = [
   {
     id: 1,
     image: showcaseNew,
-    title: "NFT Hydroponic Tower",
+    title: "NFT Hydroponic",
     description: "Maximizes vertical space for efficient vegetable production.",
   },
   {

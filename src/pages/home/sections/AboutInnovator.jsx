@@ -14,11 +14,11 @@ const AboutInnovator = () => {
           </h2>
           <p className="text-gray-600 mt-4">
             Meet a visionary entrepreneur from{" "}
-            <strong>Nkwabeng Mayfair,Sunyani</strong>, who is tackling the high
+            <strong>Nkwabeng Mayfair, Sunyani</strong>, who is tackling the high
             cost and shortage of vegetables in urban areas. With a deep passion
             for sustainable agriculture, he has introduced an innovative
             solution—urban vegetable production systems using{" "}
-            <strong>vertical farming and hydroponic towers</strong>.
+            <strong>vertical farming and hydroponic</strong>.
           </p>
           <p className="text-gray-600 mt-4">
             This cutting-edge method enables{" "}
