@@ -40,10 +40,10 @@ const Contact = () => {
 
             {/* Email */}
             <a
-              href="mailto:allgreensglobal@gmail.com"
+              href="mailto:harvestviewgh@gmail.com"
               className="block text-lg text-green-600 hover:underline"
             >
-              📧 allgreensglobal@gmail.com
+              📧 harvestviewgh@gmail.com
             </a>
 
             {/* Phone */}
@@ -76,7 +76,7 @@ const Contact = () => {
               </a>
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/yourhandle"
+                href="https://www.linkedin.com/company/harvestviewgh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl text-green-600 hover:text-green-800 transition"
