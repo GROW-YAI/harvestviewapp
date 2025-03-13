@@ -44,7 +44,8 @@ const Hero = () => {
       </motion.div>
 
       {/* Text Content */}
-      <div className="relative z-10 flex flex-col items-center text-center text-white px-6 py-32">
+     <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-6 lg:pt-32 min-h-screen">
+
         <motion.h1
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
