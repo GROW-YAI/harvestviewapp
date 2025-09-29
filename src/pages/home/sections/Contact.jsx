@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="flex justify-center md:justify-start gap-6 mt-4">
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/harvestviewgh?igsh=ZTZpbjh2c2tjZzl4"
+                href="https://www.instagram.com/harvestviewgh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl text-green-600 hover:text-green-800 transition"
