@@ -22,7 +22,7 @@ const AboutProduct = () => {
         className="w-[80%] mx-auto my-auto mt-[10%] grayscale-[40%] brightness-75"
       />
 
-      <section className="py-16 px-6 bg-white">
+      <section className="py-8 px-6 bg-white">
         {/* Benefits Icons - Responsive Layout */}
         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-12 mb-10">
           {benefits.map((benefit, index) => (
