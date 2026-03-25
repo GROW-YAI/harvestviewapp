@@ -5,8 +5,10 @@ import { initializeBoafoWidget } from "boafo-accessibility-widget";
 
 export default function BoafoWidgetInitializer() {
   useEffect(() => {
-    const BOAFO_API_KEY = "boafo_5678";
-    initializeBoafoWidget(BOAFO_API_KEY);
+    const apiKey = import.meta.env.VITE_BOAFO_API_KEY;
+    if (apiKey) {
+      initializeBoafoWidget(apiKey);
+    }
   }, []);
 
   return null; // nothing to render

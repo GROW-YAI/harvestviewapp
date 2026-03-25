@@ -46,13 +46,13 @@ const AboutProduct = () => {
         <div className="flex flex-col md:flex-row items-center gap-10 max-w-6xl mx-auto">
           {/* Text Content */}
           <div className="md:w-1/2">
-            <h3 className="text-sm font-semibold text-green-500 uppercase">
+            <h3 className="text-left text-sm font-semibold text-green-500 uppercase">
               About Us
             </h3>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2">
+            <h2 className="text-left text-3xl md:text-4xl font-bold text-gray-800 mt-2">
               <span className="text-green-600">Let Us</span> Tell You Our Story
             </h2>
-            <p className="text-gray-600 mt-4">
+            <p className="text-gray-600 mt-4 text-left">
               Our <strong>NFT Hydroponic System</strong> is revolutionizing
               urban farming by enabling fresh, pesticide-free vegetable growth
               in compact spaces. With minimal water usage and no soil needed,
@@ -60,7 +60,7 @@ const AboutProduct = () => {
             </p>
 
             {showMore && (
-              <p className="text-gray-600 mt-4">
+              <p className="text-gray-600 mt-4 text-left">
                 Our hydroponic technology uses{" "}
                 <strong>nutrient film techniques</strong> to ensure plants get
                 the right balance of water and nutrients, leading to
@@ -73,7 +73,7 @@ const AboutProduct = () => {
             {/* Read More / Read Less Button */}
             <button
               onClick={() => setShowMore(!showMore)}
-              className="mt-6 bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition"
+              className="mt-6 mr-auto bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition"
             >
               {showMore ? "Read Less" : "Read More"}
             </button>
