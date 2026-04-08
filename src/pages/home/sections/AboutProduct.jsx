@@ -49,10 +49,10 @@ const AboutProduct = () => {
             <h3 className="text-left text-sm font-semibold text-green-500 uppercase">
               About Us
             </h3>
-            <h2 className="text-left text-3xl md:text-4xl font-bold text-gray-800 mt-2">
+            <h2 className="text-left text-2xl md:text-3xl font-bold text-gray-800 mt-2 mb-4">
               <span className="text-green-600">Let Us</span> Tell You Our Story
             </h2>
-            <p className="text-gray-600 mt-4 text-left">
+            <p className="text-gray-600 text-left leading-relaxed text-base mb-4">
               Our <strong>NFT Hydroponic System</strong> is revolutionizing
               urban farming by enabling fresh, pesticide-free vegetable growth
               in compact spaces. With minimal water usage and no soil needed,
@@ -60,14 +60,19 @@ const AboutProduct = () => {
             </p>
 
             {showMore && (
-              <p className="text-gray-600 mt-4 text-left">
-                Our hydroponic technology uses{" "}
-                <strong>nutrient film techniques</strong> to ensure plants get
-                the right balance of water and nutrients, leading to
-                <strong> faster growth</strong> and{" "}
-                <strong> higher yields</strong>. It’s perfect for urban farming,
-                small-scale agriculture, and home gardening.
-              </p>
+              <div className="text-gray-600 text-left leading-relaxed text-base mb-4 animate-fadeIn">
+                <p className="mb-3">
+                  Our hydroponic technology uses{" "}
+                  <strong>nutrient film techniques</strong> to ensure plants get
+                  the right balance of water and nutrients, leading to
+                  <strong> faster growth</strong> and{" "}
+                  <strong> higher yields</strong>.
+                </p>
+                <p>
+                  It's perfect for urban farming, small-scale agriculture, and
+                  home gardening.
+                </p>
+              </div>
             )}
 
             {/* Read More / Read Less Button */}
