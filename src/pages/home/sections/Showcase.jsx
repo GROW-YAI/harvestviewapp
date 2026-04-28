@@ -28,7 +28,7 @@ const products = [
 
 const Showcase = () => {
   return (
-    <section id="product" className="py-16 px-6 bg-gray-50">
+    <section id="product" className="py-8 px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto text-center">
         <h3 className="text-sm font-semibold text-green-500 uppercase tracking-widest">
           Our Products
@@ -43,7 +43,7 @@ const Showcase = () => {
       </div>
 
       {/* Product Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-8">
         {products.map((product) => (
           <motion.div
             key={product.id}

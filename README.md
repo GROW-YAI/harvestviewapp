@@ -1,81 +1,62 @@
-# Landing Page Template
+# HarvestView App
 
-This is a **Landing Page Template** built with **Vite + React + TailwindCSS**. It provides a clean and structured setup for developers to quickly build and customize landing pages.
+## Project Overview
 
-## 🚀 Features
+HarvestView is a modern web application built with React, Vite, and Tailwind CSS. The site features an integrated Boafo accessibility widget to ensure the platform is usable by all visitors, including those with disabilities. The application includes interactive maps powered by Leaflet, smooth animations with Framer Motion, and client-side routing via React Router.
 
-- **Vite** for blazing-fast development
-- **React** for modular and scalable UI
-- **TailwindCSS** for efficient styling
-- Well-structured project folder
+### Main Features
 
-## 📦 Getting Started
+- Boafo accessibility widget integration for enhanced site accessibility
+- Interactive map visualizations using React Leaflet
+- Responsive design with Tailwind CSS
+- Smooth page transitions and animations with Framer Motion
+- Client-side routing with React Router DOM
 
-Follow the steps below to clone the repository, install dependencies, and run the project.
+### Tech Stack
 
-### 🔹 Prerequisites
+- React 19
+- Vite
+- Tailwind CSS 4
+- React Router DOM
+- Leaflet / React Leaflet
+- Framer Motion
+- Boafo Accessibility Widget
 
-Ensure you have the following installed on your system:
+## How to Get Your Boafo API Key
 
-- [Node.js](https://nodejs.org/) (LTS recommended)
-- [Git](https://git-scm.com/)
+1. Visit [boafo.co](https://boafo.co) to register for an account.
+2. After registration, log in and navigate to your dashboard.
+3. Retrieve your unique API key from the dashboard.
 
-### 📥 Clone the Repository
+## Boafo Widget Integration Guide
 
-```sh
-git clone https://github.com/gorillagh/landing-page-setup.git
-```
+For detailed instructions on integrating the Boafo widget, refer to the official guide:
+https://drive.google.com/file/d/1tvwK-sBZI2a4uldd6z5LD1iLblSl3WbG/view?usp=sharing
 
-### 📂 Navigate into the Project Directory
+## Setup Instructions
 
-```sh
-cd landing-page-setup
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GROW-YAI/harvestviewapp.git
+   cd harvestviewapp
+   ```
 
-### 📦 Install Dependencies
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```sh
-npm install
-```
+3. Copy the environment example file:
+   ```bash
+   cp .env.example .env
+   ```
 
-### 🚀 Run the Development Server
+4. Fill in your Boafo API key in the `.env` file:
+   ```
+   VITE_BOAFO_API_KEY=your_actual_api_key_here
+   ```
 
-```sh
-npm run dev
-```
-
-The project should now be running at `http://localhost:5173/` (or the port specified in your terminal).
-
-## 🏗️ Building for Production
-
-To generate a production-ready build, run:
-
-```sh
-npm run build
-```
-
-## 📄 Project Structure
-
-```
-landing-page-template/
-├── src/                 # Source files
-│   ├── assets/          # Static assets (images, icons, etc.)
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Page components
-│   ├── layouts/           # Page layouts
-│   ├── App.jsx          # Root component
-│   ├── main.jsx         # React entry point
-├── public/              # Static files
-├── index.html           # Main HTML file
-├── package.json         # Project dependencies & scripts
-├── vite.config.js       # Vite configuration
-└── README.md            # Project documentation
-```
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-Happy coding! 🚀
+5. Start the development server:
+   ```bash
+   npm run dev
+   ```

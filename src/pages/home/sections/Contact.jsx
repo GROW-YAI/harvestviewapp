@@ -13,7 +13,7 @@ import markerShadowPng from "leaflet/dist/images/marker-shadow.png";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 px-6 bg-white">
+    <section id="contact" className="py-8 px-6 bg-white pb-0">
       <div className="max-w-6xl mx-auto">
         {/* Title */}
         <div className="text-center mb-10">
